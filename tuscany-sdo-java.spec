@@ -22,7 +22,7 @@ BuildRequires: maven-plugin-bundle
 BuildRequires: maven-surefire-provider-junit4
 
 # required by plugin-bundle
-BuildRequires: mvn(org.apache.maven.shared:maven-shared-components)
+BuildRequires: mvn(org.apache.maven.shared:maven-shared-components:pom:)
 
 BuildArch:     noarch
 
